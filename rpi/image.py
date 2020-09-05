@@ -4,7 +4,7 @@
 
 import face_recognition
 
-image = face_recognition.load_image_file('./rpi/unknown/download.jpg')
+image = face_recognition.load_image_file('./rpi/unknown/group.jpg')
 face_location = face_recognition.face_locations(image)
 
-print(face_location)
+print(len(face_location))
